@@ -1,0 +1,27 @@
+{
+  "name": "translate-app",
+  "version": "0.0.0",
+  "description": "",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "tauri": "tauri"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@tauri-apps/api": "^1.5.1",
+    "jsoneditor": "^9.10.4",
+    "solid-js": "^1.7.8"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^1.5.6",
+    "@types/jsoneditor": "^9",
+    "typescript": "^5.3.2",
+    "vite": "^4.4.4",
+    "vite-plugin-solid": "^2.7.0"
+  },
+  "packageManager": "yarn@4.0.2"
+}
